@@ -2,6 +2,7 @@
 // To use real photos: drop files into /src/assets/ and replace each
 // value below with an import, e.g. heroExterior: heroExteriorJpg
 // (import heroExteriorJpg from "../assets/hero-exterior.jpg";)
+const cloud = "https://res.cloudinary.com/dirnd62qp/image/upload/v1782133035/55_urzyj8.jpg"
 const u = (id, w = 1200, h = 900) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&h=${h}&q=80`;
 
