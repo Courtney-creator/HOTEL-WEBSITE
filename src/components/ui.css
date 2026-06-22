@@ -1,0 +1,160 @@
+/* ===== Layout ===== */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ===== Eyebrow label ===== */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.eyebrow__line {
+  width: 28px;
+  height: 1px;
+  background: var(--gold);
+}
+.eyebrow__text {
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--maroon-500);
+}
+.eyebrow--dark .eyebrow__text {
+  color: var(--gold);
+}
+
+/* ===== Gold rule ===== */
+.gold-rule {
+  width: 60px;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+.gold-rule--center {
+  margin: 0 auto;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 16px 36px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+}
+.btn--sm {
+  padding: 12px 26px;
+  font-size: 12px;
+}
+.btn--primary {
+  background: var(--maroon-500);
+  color: var(--cream);
+  border-color: var(--maroon-500);
+}
+.btn--primary:hover {
+  background: #6e0f29;
+}
+.btn--outline {
+  background: transparent;
+  color: var(--cream);
+  border-color: var(--cream);
+}
+.btn--outline:hover {
+  background: var(--cream);
+  color: var(--maroon-950);
+}
+.btn--outline-dark {
+  background: transparent;
+  color: var(--maroon-700);
+  border-color: var(--maroon-700);
+}
+.btn--outline-dark:hover {
+  background: var(--maroon-700);
+  color: var(--cream);
+}
+.btn--gold {
+  background: var(--gold);
+  color: var(--maroon-950);
+  border-color: var(--gold);
+}
+.btn--gold:hover {
+  background: #b5945a;
+}
+
+/* ===== Reveal on scroll ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Page hero (sub-pages) ===== */
+.page-hero {
+  position: relative;
+  height: 56vh;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.page-hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(26, 6, 16, 0.6), rgba(26, 6, 16, 0.78));
+}
+.page-hero__content {
+  position: relative;
+  width: 100%;
+}
+.page-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 64px);
+  color: var(--cream);
+  font-weight: 400;
+  margin: 0 0 18px;
+}
+.page-hero__subtitle {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: #e8d9c5;
+  font-weight: 300;
+  max-width: 560px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ===== Section heading helper ===== */
+.section-heading {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 4vw, 44px);
+  color: var(--maroon-950);
+  font-weight: 400;
+  margin: 0;
+}
+.section-heading--light {
+  color: var(--cream);
+}

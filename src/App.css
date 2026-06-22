@@ -1,0 +1,19 @@
+/* Central stylesheet — imports every component/page CSS module.
+   Keeps main.jsx clean and means each component file stays
+   self-contained with its own .css next to it. */
+
+@import "./components/ui.css";
+@import "./components/Navbar.css";
+@import "./components/Footer.css";
+@import "./components/WhatsAppFloat.css";
+
+@import "./pages/Home.css";
+@import "./pages/Rooms.css";
+@import "./pages/Events.css";
+@import "./pages/Gallery.css";
+@import "./pages/About.css";
+@import "./pages/Contact.css";
+
+.app {
+  min-height: 100vh;
+}

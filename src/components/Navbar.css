@@ -1,0 +1,115 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: transparent;
+  transition: background 0.4s ease, border-color 0.4s ease;
+  border-bottom: 1px solid transparent;
+}
+.navbar--solid {
+  background: rgba(42, 10, 20, 0.97);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(198, 166, 100, 0.18);
+}
+
+.navbar__inner {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--cream);
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.navbar__logo span {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  font-family: var(--font-body);
+}
+
+.navbar__links {
+  display: none;
+  gap: 36px;
+}
+.navbar__link {
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cream);
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+.navbar__link:hover {
+  color: var(--gold);
+}
+.navbar__link--active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.navbar__cta {
+  display: none;
+}
+
+.navbar__toggle {
+  background: none;
+  border: none;
+  color: var(--cream);
+  cursor: pointer;
+}
+
+.navbar__mobile {
+  position: fixed;
+  inset: 0;
+  background: var(--maroon-950);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+.navbar__mobile-close {
+  background: none;
+  border: none;
+  color: var(--cream);
+  cursor: pointer;
+  align-self: flex-end;
+}
+.navbar__mobile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  margin-top: 60px;
+}
+.navbar__mobile-link {
+  font-family: var(--font-display);
+  font-size: 28px;
+  color: var(--cream);
+}
+.navbar__mobile-link--active {
+  color: var(--gold);
+}
+
+@media (min-width: 920px) {
+  .navbar__links {
+    display: flex;
+  }
+  .navbar__cta {
+    display: inline-flex;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+}

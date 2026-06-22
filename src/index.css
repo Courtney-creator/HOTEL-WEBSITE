@@ -1,0 +1,77 @@
+:root {
+  --maroon-950: #2a0a14;
+  --maroon-900: #1a0610;
+  --maroon-700: #5c0e22;
+  --maroon-500: #8b1538;
+  --cream: #faf6f1;
+  --cream-deep: #f2e9dd;
+  --gold: #c6a664;
+  --gold-soft: rgba(198, 166, 100, 0.25);
+  --ink: #1a1212;
+  --stone: #5c4a42;
+  --stone-light: #b79e8e;
+  --hairline: #e3d6c7;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--gold-soft);
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
