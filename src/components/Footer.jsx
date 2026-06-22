@@ -10,8 +10,8 @@ export default function Footer() {
               5PM <span>Hotel</span>
             </div>
             <p className="footer__about">
-              A boutique sanctuary off the Northern Bypass, Thome, Nairobi — where quiet
-              luxury meets warm hospitality.
+              A boutique sanctuary off the Northern Bypass, Thome, Nairobi; Where every Stay
+              becomes a story.
             </p>
           </div>
 
