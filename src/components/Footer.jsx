@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,7 +10,8 @@ export default function Footer() {
               5PM <span>Hotel</span>
             </div>
             <p className="footer__about">
-              A boutique sanctuary off the Northern Bypass, Thome, Nairobi; where every stay becomes a story.
+              A boutique sanctuary off the Northern Bypass, Thome, Nairobi — where quiet
+              luxury meets warm hospitality.
             </p>
           </div>
 
@@ -34,17 +34,6 @@ export default function Footer() {
             <div className="footer__text">Northern Bypass, Thome, Nairobi</div>
             <div className="footer__text">+254 722867400</div>
             <div className="footer__text">operations@5pm.co.ke</div>
-          </div>
-
-          <div>
-            <div className="footer__heading">Newsletter</div>
-            <p className="footer__text footer__text--tight">
-              Stays and stories from 5PM, occasionally.
-            </p>
-            <div className="footer__newsletter">
-              <input placeholder="Your email" />
-              <ChevronRight size={18} color="var(--gold)" />
-            </div>
           </div>
         </div>
 
