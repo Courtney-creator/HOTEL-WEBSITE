@@ -39,7 +39,7 @@ export default function Rooms() {
       <PageHero
         eyebrow="Accommodation"
         title="Rooms"
-        subtitle="36 tastefully furnished rooms across four categories, accommodating up to 148 guests — each designed around comfort and quiet detail."
+        subtitle="36 tastefully furnished rooms across four categories, accommodating up to 148 guests; each designed around comfort and quiet detail."
         img={IMG.lobby}
       />
 

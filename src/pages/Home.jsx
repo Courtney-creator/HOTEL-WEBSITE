@@ -53,7 +53,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.3}>
             <p className="hero__tagline">
-              Where every hour feels like golden hour — 36 rooms, world-class venues,
+              Where every hour feels like golden hour: 36 rooms, world-class venues,
               and hospitality that feels personal.
             </p>
           </Reveal>
@@ -87,8 +87,8 @@ export default function Home() {
             <Reveal>
               <Eyebrow>Our Story</Eyebrow>
               <h2 className="section-heading">
-                A boutique address off the Northern Bypass, designed for those who notice
-                the details others miss.
+                A boutique address off the Northern Bypass, Where every Stay
+                becomes a Story.
               </h2>
               <p>
                 5PM Hotel takes its name from golden hour, that moment just before sunset
@@ -100,8 +100,7 @@ export default function Home() {
               <p>
                 Whether you are here for a quiet overnight stay, a high-stakes conference,
                 a wedding, or a birthday celebration, 5PM is built to make every occasion
-                feel exactly right. One philosophy: hospitality that feels personal, never
-                performed.
+                feel exactly right. One philosophy: A Stay, A Story.
               </p>
               <Btn variant="outlineDark" to="/about">Read Our Full Story</Btn>
             </Reveal>

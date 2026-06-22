@@ -5,11 +5,11 @@ import { IMG } from "../content/images.js";
 const VALUES = [
   {
     title: "Mission",
-    desc: "To offer warm, attentive hospitality that feels personal — never scripted, never performative. Whether you're here for one night or a week-long conference.",
+    desc: "To offer warm, attentive hospitality that feels personal.",
   },
   {
     title: "Vision",
-    desc: "To be Nairobi's most distinctive boutique address — known for quiet detail, genuine warmth, and spaces that work as hard as their guests do.",
+    desc: "To be known for quiet detail, genuine warmth, and spaces that work as hard as their guests do.",
   },
   {
     title: "Values",
@@ -31,13 +31,14 @@ export default function About() {
         <Reveal>
           <Eyebrow>Who We Are</Eyebrow>
           <h2 className="section-heading">
-            Built on a simple belief — that small, done well, beats big, done generically.
+            Built on a simple belief that small, done exceptionally well, is better than big, done geneically.
           </h2>
           <p>
-            5PM Hotel is located off the Northern Bypass in Thome, Nairobi. We offer 36
-            tastefully furnished rooms across four categories Single, Twin, Convertible,
-            and Triple , accommodating up to 148 guests in spaces designed for both
-            relaxation and professional use.
+           Nestled in the tranquil neighborhood of Thome, just off Nairobi's Northern Bypass,
+           5PM Hotel is a boutique destination where comfort, connection, and memorable experiences 
+           come together. With 36 thoughtfully designed rooms across four categories;
+           Single, Twin, Convertible, and Triple, we offer welcoming spaces for families,
+            business travelers, couples, and groups seeking personalized hospitality.
           </p>
           <p>
             The name comes from golden hour: that moment just before sunset when the light
@@ -55,6 +56,10 @@ export default function About() {
             With secure parking for up to 72 vehicles, high-speed internet, and full event
             support services, 5PM Hotel caters seamlessly for both casual stays and
             professional events.
+          </p>
+          <p>
+            At 5PM Hotel, every guest is welcomed like family,every moment is valued,
+            and every visit becomes more than just a stay.
           </p>
         </Reveal>
       </section>
