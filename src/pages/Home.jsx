@@ -53,8 +53,8 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.3}>
             <p className="hero__tagline">
-              Where every hour feels like golden hour: 36 rooms, world-class venues,
-              and hospitality that feels personal.
+              Where every hour feels like golden hour: thoughtfully designed for
+              meaningful stays and memorable moments.
             </p>
           </Reveal>
           <Reveal delay={0.45}>
