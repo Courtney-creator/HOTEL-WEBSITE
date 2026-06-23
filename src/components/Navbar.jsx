@@ -88,7 +88,7 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          <a href="https://wa.me/254700000000" className="navbar__mobile-whatsapp">
+          <a href="https://wa.me/254722867400" className="navbar__mobile-whatsapp">
             Chat on WhatsApp
           </a>
         </div>
