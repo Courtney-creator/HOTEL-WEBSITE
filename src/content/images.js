@@ -10,11 +10,15 @@ export const IMG = {
   heroExterior: "",
   exterior: "/5pm.jpeg",
   lobby: "/hall.jpeg",
+  exterior2: "/whole.jpeg",
+  exterior3: "/frntdesk.jpeg",
 
   roomSuite: "/conv.jpeg",
   roomDeluxe: "/dbleroom.jpeg",
-  roomClassic: "/sr.jpeg",
+  roomClassic: "/singrom.jpeg",
   roomPenthouse: "/tri.jpeg",
+  fronter: "/frontr.jpeg",
+  frnt: "/frontroom",
 
   dining1: "/zora.jpeg",
   dining2: "/zora.jpeg",
@@ -27,6 +31,8 @@ export const IMG = {
   event2: "/conference.jpeg",
   conference: "/conference.jpeg",
   wedding: "/zora.jpeg",
+  event3: "fdish.jpeg",
+  event4: "eventt.jpeg",
 
   pool: "/child.jpeg",
   spa: "/gardg.jpeg",
