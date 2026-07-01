@@ -24,13 +24,7 @@ const ROOMS = [
     desc: "Our most flexible option - the room adapts to whether you need a single or double layout. Ideal for solo guests who want more space, or couples.",
     amenities: ["Flexible Bed Layout", "Free Wi-Fi","Daily Housekeeping", "Coffee & Tea Tray"],
   },
-  {
-    img: IMG.roomPenthouse,
-    name: "Triple Rooms",
-    count: "4 rooms",
-    desc: "Our most spacious category - three beds, a generous bathroom, and room to breathe. Ideal for small groups or families.",
-    amenities: ["Three Beds", "Spacious Bathroom", "Free Wi-Fi","Daily Housekeeping", "Extra Storage","Coffee & Tea Tray"],
-  },
+  
 ];
 
 export default function Rooms() {
