@@ -7,7 +7,7 @@ const ROOMS = [
     img: IMG.roomClassic,
     name: "Single Rooms",
     count: "11 rooms",
-    desc: "Thoughtfully designed for solo travellers - everything you need, nothing superfluous. Comfortable bed, work nook, and garden-facing window.",
+    desc: "Comfortable and well-appointed, our Single Rooms accommodate up to two guests with everything you need for a relaxed stay.",
     amenities: ["Single Bed", "Free Wi-Fi", "Rain Shower", "Daily Housekeeping","Coffee & Tea Tray"],
   },
   {
