@@ -43,20 +43,13 @@ export default function Home() {
         <img src={IMG.heroExterior} alt="5PM Hotel exterior" className="hero__img" />
         <div className="hero__overlay" />
         <div className="hero__content">
-          <Reveal>
-            <div className="hero__location">Thome · Nairobi, Kenya</div>
-          </Reveal>
+         
           <Reveal delay={0.15}>
             <h1 className="hero__title">
               5PM <span>Hotel</span>
             </h1>
           </Reveal>
-          <Reveal delay={0.3}>
-            <p className="hero__tagline">
-              Where every hour feels like golden hour: thoughtfully designed for
-              meaningful stays and memorable moments.
-            </p>
-          </Reveal>
+  
           <Reveal delay={0.45}>
           </Reveal>
         </div>
