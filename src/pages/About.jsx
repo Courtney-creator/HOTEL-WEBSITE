@@ -37,7 +37,7 @@ export default function About() {
            Nestled in the tranquil neighborhood of Thome, just off Nairobi's Northern Bypass,
            5PM Hotel is a boutique destination where comfort, connection, and memorable experiences 
            come together. With 36 thoughtfully designed rooms across four categories;
-           Single, Twin, Convertible, and Triple, we offer welcoming spaces for families,
+           Single, Twin and Convertible, we offer welcoming spaces for families,
             business travelers, couples, and groups seeking personalized hospitality.
           </p>
           <p>
