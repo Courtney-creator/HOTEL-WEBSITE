@@ -8,7 +8,6 @@ const ROOM_TYPES = [
   { type: "Single Rooms", count: "11", desc: "Comfortable solo stays with all essentials." },
   { type: "Twin Rooms", count: "6", desc: "Two beds, ideal for colleagues or friends." },
   { type: "Convertible Rooms", count: "15", desc: "Flexible layout for single or double use." },
-  { type: "Triple Rooms", count: "4", desc: "Spacious rooms for small groups or families." },
 ];
 
 const VENUES_OVERVIEW = [
