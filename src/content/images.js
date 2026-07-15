@@ -27,7 +27,7 @@ export const IMG = {
   plate2: "chillzone.jpeg",
   bar: "/conv.jpeg",
 
-  event1: "/fer.jpeg",
+  event1: "/outsided.jpeg",
   event2: "/conference.jpeg",
   conference: "/conference.jpeg",
   wedding: "/zora.jpeg",
