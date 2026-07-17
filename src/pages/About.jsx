@@ -23,7 +23,7 @@ export default function About() {
       <PageHero
         eyebrow="Our Story"
         title="About 5PM Hotel"
-        subtitle="Named for the hour the light turns gold over Thome — our founding idea, made literal."
+        subtitle="Named for the hour the light turns gold over Thome - our founding idea, made literal."
         img={IMG.about}
       />
 
