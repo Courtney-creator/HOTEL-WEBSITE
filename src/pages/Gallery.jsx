@@ -42,7 +42,7 @@ export default function Gallery() {
       <PageHero
         eyebrow="Gallery"
         title="A Visual Tour"
-        subtitle="Rooms, grounds, dining, and gatherings a glimpse before you arrive."
+        subtitle="Rooms, grounds, dining, and gatherings - a glimpse before you arrive."
         img={IMG.gallery1}
       />
 
