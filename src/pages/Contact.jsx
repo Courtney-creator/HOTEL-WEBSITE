@@ -36,7 +36,7 @@ export default function Contact() {
       <PageHero
         eyebrow="Get in Touch"
         title="Contact Us"
-        subtitle="We're off the Northern Bypass in Thome, Nairobi — easy to find, hard to forget."
+        subtitle="We're off the Northern Bypass in Thome, Nairobi - easy to find, hard to forget."
         img={IMG.map}
       />
 
