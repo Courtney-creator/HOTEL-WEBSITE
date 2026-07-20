@@ -40,7 +40,6 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <img src={IMG.heroExterior} alt="5PM Hotel exterior" className="hero__img" />
-        <div className="hero__overlay" />
         <div className="hero__content">  
           <Reveal delay={0.45}>
           </Reveal>
