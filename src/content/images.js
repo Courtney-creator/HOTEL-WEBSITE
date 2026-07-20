@@ -7,7 +7,7 @@ const u = (id, w = 1200, h = 900) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&h=${h}&q=80`;
 
 export const IMG = {
-  heroExterior: "/imhh.jpeg",
+  heroExterior: "/rio.jpeg",
   exterior: "/5pm.jpeg",
   lobby: "/hall.jpeg",
   exterior2: "/whole.jpeg",
